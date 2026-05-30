@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+age = input("Enter your age: ")
+dob = input("Enter your dob: ")
+grade = input("Enter your grade: ")
+school = input("Enter your school: ")
+print("my name is ",name," and my age is ",age," and my dob is ",dob," my grade is ",grade," and i go to school at ",school)

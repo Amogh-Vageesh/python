@@ -1,0 +1,5 @@
+x = input("Enter a Datatype[x]: ")
+print ("DataType of x : ", type(x))
+x = int(x)
+print ("Changed into")
+print ("DataType of x : ", type(x))

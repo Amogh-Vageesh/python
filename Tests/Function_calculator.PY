@@ -1,4 +1,4 @@
-result = 0
+
 def add(a,b):
     return a + b
 
@@ -33,16 +33,20 @@ while True:
 
         if choice == 1:
             result = add(a,b)
-            print(f"result is {result}")
+            print(f"result is {result}\n")
+            
         elif choice == 2:
-            subtract(a,b)
-            print(f"result is {result}")
+            result = subtract(a,b)
+            print(f"result is {result}\n")
+            
         elif choice == 3:
-            multiply(a,b)
-            print(f"result is {result}")
+            result = multiply(a,b)
+            print(f"result is {result}\n")
+            
         elif choice == 4:
-            divide(a,b)
-            print(f"result is {result}")
+            result = divide(a,b)
+            print(f"result is {result}\n")
+            
         else:
             print(f"{choice} is an invalid choice")
 
